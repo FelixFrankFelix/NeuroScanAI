@@ -52,4 +52,18 @@ The project evaluates two CNN models, one with transfer learning using the VGG16
 You can find the complete Kaggle notebook detailing the project and its implementation [here](https://www.kaggle.com/code/franklycypher/neuroscanai-model-building).
 
 Feel free to explore the dataset, code, and results on Kaggle for a more in-depth understanding of the NeuroScan project.
- 
+
+## Model Usage and Deployment
+
+### Overview
+This section outlines how to utilize and deploy the model using Streamlit, a Python library for creating interactive web applications. The deployment process enables easy sharing and interaction with the model through a web-based interface.
+
+## App Usage Images
+Here are some sample images showcasing the app's usage:
+
+1. ![Image 1](Images/Overview.png) - *This is the Home page of the Application as Launched*
+2. ![Image 2](Images/Image_select.png) - *After Launch is sucessful, The User will upload the MRI Scan to NeuroscanAI*
+3. ![Image 3](Images/result_display.png) - *NeuroScanAI will analyze the image and provide a Recommendation*
+4. ![Image 4](Images/detailed.png) - *The User can also get a Detailed Responses as to the type of tumour*
+5. ![Image 5](Images/predict_proba.png) - *The Application can also provide prediction confidence levels*
+
